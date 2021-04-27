@@ -1,0 +1,58 @@
+####################################
+#
+# How to use the silicon parameters
+#
+####################################
+
+# 1) Adding the silicon related atoms types to the addAtomTypes{} in leaprc.gaff2, e.g.
+
+addAtomTypes {
+        # GAFF2 atom types
+        #......
+        # GAFF2 atom types
+
+        # Silicon related types
+	{ "si"  "Si" "sp3" }
+	{ "hi"  "H" "sp3" }
+	{ "ci"  "C" "sp3" }
+	{ "ng"  "N" "sp3" }
+	{ "oi"  "O" "sp3" }
+}
+
+
+# 2) For each new molecule, run antechamber to get an initial prepc file, then manually 
+#    change the silicon and related atoms to the correct atom name and/or atom type
+#  Example: SiH4, run antechamber gives an initial prepc like:
+   1  DUMM  DU    M        999.000     999.0      -999.0           .00000
+   2  DUMM  DU    M        999.000    -999.0       999.0           .00000
+   3  DUMM  DU    M       -999.000     999.0       999.0           .00000
+   4  Si    Si    M          0.000000   -0.000000    0.000000    0.528800
+   5  H     ha    E          0.699000   -0.494000    1.211000   -0.132200
+   6  H1    ha    E         -1.398000   -0.494000    0.000000   -0.132200
+   7  H2    ha    E          0.699000   -0.494000   -1.211000   -0.132200
+   8  H3    ha    E          0.000000    1.483000    0.000000   -0.132200
+
+#  Then, we need to mannual change the atom types to:
+   1  DUMM  DU    M        999.000     999.0      -999.0           .00000
+   2  DUMM  DU    M        999.000    -999.0       999.0           .00000
+   3  DUMM  DU    M       -999.000     999.0       999.0           .00000
+   4  Si    si    M          0.000000   -0.000000    0.000000    0.528800
+   5  H     hi    E          0.699000   -0.494000    1.211000   -0.132200
+   6  H1    hi    E         -1.398000   -0.494000    0.000000   -0.132200
+   7  H2    hi    E          0.699000   -0.494000   -1.211000   -0.132200
+   8  H3    hi    E          0.000000    1.483000    0.000000   -0.132200
+
+
+# 3) Run leap to generate the prmtop and inpcrd files:
+#
+source leaprc.ff99SBildn
+source /path_to_file/leaprc.gaff2       # modified leaprc.gaff2 in 1)
+
+loadamberprep   SiH4.prepc
+loadamberparams silicon_params_set3.frcmod
+
+mol=loadpdb SiH4.pdb
+
+saveamberparm mol SiH4.prmtop SiH4.inpcrd 
+
+
