@@ -1,0 +1,112 @@
+Parameters for si containing molecules
+MASS
+si       28.09    2.900               2.900 is a temporary number from s
+hi       1.008    0.135               hc parameters
+ci       12.01    0.878               c3 parameters
+ca       12.01    0.360               caparameters
+oi       16.00    0.434               o paramerters
+ng       14.01    0.530               n3 parameters
+
+BOND
+si-hi     200.20       1.487 
+si-ci     223.29       1.884 
+si-ng     302.02       1.740 
+si-oi     301.70       1.674 
+si-si     410.80       2.339 
+si-ca      42.34       1.885            si attached to a sp2 C in pure aromatic systems
+si-cc      38.50       1.878            si attached to a sp2 C in non-pure aromatic systems
+si-cd      38.50       1.878            si attached to a sp2 C in non-pure aromatic systems, identical to cc
+ci-hc     375.92       1.097            c3-hc
+ci-c3     232.52       1.538            c3-c3
+ci-n3     261.19       1.465            c3-n3
+ci-oh     293.40       1.423            c3-oh
+ci-h1     375.92       1.097            c3-h1
+ci-ca     250.32       1.516            c3-ca
+oi-ho     569.60       0.973            oh-ho
+ng-hn     511.28       1.019            n3-hn
+ci-n      263.77       1.462            c3-n
+
+ANGLE
+hi-si-hi      37.64        108.57
+ci-si-hi      23.43        109.77
+ci-si-ci      31.44        109.83
+ci-si-ng      12.06        108.89
+ci-si-oi       3.01        106.42
+ci-si-ca       9.03        109.59
+ci-si-cc      74.50        108.79
+ci-si-cd      74.50        108.79
+ng-si-hi      35.89        110.68
+oi-si-hi      45.67        110.46
+si-ci-hc      36.65        111.17
+si-ci-c3      47.94        114.45
+si-ci-n3      30.10        109.11
+si-ci-n       30.10        112.105            force  constant taken from si-ci-n3
+si-ci-h1      12.72        110.34
+si-ci-oh      58.82        105.76
+si-ci-ca      48.16        111.84
+si-ca-ca       9.92        121.38 
+si-ca-nb       5.72        116.08
+si-cc-cc       7.20        130.41
+si-cd-cd       7.20        130.41
+si-cc-nc       3.00        119.51             nc and nd are identical in gaff2
+si-cc-nd       3.00        119.51          
+si-cd-nc       3.00        119.51          
+si-cd-nd       3.00        119.51          
+si-ng-hn      31.84        118.89
+si-oi-ho      20.78        116.37
+si-si-hi      15.92        110.40
+ng-si-ca      85.25        105.26 
+oi-si-ca     123.57        103.70
+hc-ci-hc      38.96        107.580             hc-c3-hc 
+hc-ci-c3      46.816       109.800             c3-c3-hc
+hc-ci-ca      47.281       110.470             ca-c3-hc
+hc-c3-ci      46.816       109.800             c3-c3-hc
+h1-ci-h1      38.802       108.460             h1-c3-h1
+h1-ci-n3      61.163       109.880             h1-c3-n3 
+h1-ci-oh      62.540       110.260             h1-c3-oh
+ci-c3-hc      46.816       109.800             c3-c3-hc
+ci-n3-hn      47.782       109.290             c3-n3-hn
+ci-oh-ho      49.027       107.260             c3-oh-ho
+ci-ca-ca      65.583       120.770             c3-ca-ca
+hn-ng-hn      40.828       106.400             hn-n3-hn  parameters
+ci-n -hn      46.147       117.680             c3-n -hn
+n -ci-h1      61.544       108.880             h1-c3-n
+c -n -ci      65.252       120.690             c -n -c3
+c3-c3-ci      64.888       111.510             c3-c3-c3 
+
+DIHE
+X -si-si-X     9     0.579      0.000      3.0     # based on Si2H6        
+X -si-ci-X     9     0.705      0.000      3.0
+X -si-ng-X     6     0.699      0.000      3.0  
+X -si-oi-X     3     0.547      0.000      3.0      
+X -si-ca-X     6     0.000      0.000      2.0     
+X -si-cc-X     6     0.000      0.000      2.0     
+X -si-cd-X     6     0.000      0.000      2.0     
+X -ci-c3-X     9     1.156      0.000      3.0        
+X -ci-n3-X     6     1.784      0.000      3.0      
+X -ci-n -X     6     0.000      0.000      2.0
+X -ci-oh-X     3     0.295      0.000      3.0      
+X -ci-ca-X     6     0.000      0.000      2.0     X -c3-ca-X
+si-ci-ca-ca    1     0.400      0.000      2.0 
+si-ci-n3-hn    1     1.0        0.000      1.0
+si-ci-oh-ho    1     0.0        0.000     -3.0
+si-ci-oh-ho    1     0.7       90.000      2.0
+ci-si-ca-nb    1     0.2        0.000      3.0   
+ci-si-cc-nc    1     0.04       0.000      3.0 
+ci-si-cc-nd    1     0.04       0.000      3.0 
+ci-si-cd-nc    1     0.04       0.000      3.0 
+ci-si-cd-nd    1     0.04       0.000      3.0 
+oi-si-ca-ca    1     2.0      180.000     -3.0
+oi-si-ca-ca    1     0.2      180.000      2.0
+si-ci-n -c     1     0.5        0.000     -3.0
+si-ci-n -c     1     0.3       60.000      1.0
+
+IMPROPER
+
+NONBON
+si	1.778	0.015
+hi	1.456	0.095
+ci	2.001	0.113
+oi	1.820	0.500
+ng	1.773	0.473
+
