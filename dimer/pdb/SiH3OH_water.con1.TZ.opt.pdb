@@ -1,0 +1,12 @@
+REMARK   Siliane Dimer
+HETATM    1   Si SIO     1      -1.590   0.019  -0.008
+HETATM    2   H  SIO     1      -1.696   1.496   0.064
+HETATM    3   H1 SIO     1      -2.714  -0.581   0.734
+HETATM    4   H2 SIO     1      -1.699  -0.361  -1.437
+HETATM    5   O  SIO     1      -0.207  -0.542   0.693
+HETATM    6   H3 SIO     1       0.624  -0.193   0.338
+TER              
+HETATM    7   O  WAT     2       2.211   0.478  -0.303
+HETATM    8   H1 WAT     2       2.668   1.019   0.345
+HETATM    9   H2 WAT     2       2.839  -0.215  -0.521
+END

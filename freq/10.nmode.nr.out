@@ -1,0 +1,102 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          4     10000         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for output coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/13/21 Time = 18:37:26
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :         1099 real words
+
+Total memory required :         4331 integer words
+
+Total memory required :           30 4-character words
+
+Maximum nonbond pairs          27
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =          0
+    Number of H-bonded pairs   =          0
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =   0.686205E+00    GRDMAX = 0.946024E-01    GNORM = 0.369996E-01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.23663E-04
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.11558E-03         0.10976E-11        -0.15125E+00         0.83732E+00
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+     Coordinate origin is now the molecular center of mass
+          b1 =    1.74907 b2 =  12.92592 tlamba =    0.00000
+          rms of step length = 0.0001861368
+          ene @step k-1 =        0.686205  ene @k =        0.686170
+
+
+ *****************        *****************        *****************       
+   step =          1
+     F =   0.686170E+00    GRDMAX = 0.610178E-04    GNORM = 0.205308E-04
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.40928E-04
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.21122E-03         0.83267E-16        -0.15112E+00         0.83703E+00
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    1.77579 b2 =  12.95734 tlamba =    0.00000
+          rms of step length = 0.0000001686
+          ene @step k-1 =        0.686170  ene @k =        0.686170
+
+
+ *****************        *****************        *****************       
+   step =          2
+     F =   0.686170E+00    GRDMAX = 0.407235E-10    GNORM = 0.140183E-10
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.40919E-04
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.21111E-03         0.00000E+00        -0.15112E+00         0.83703E+00
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+ in savec point =   2
+
+
+                              F i n a l   R e s u l t s :
+
+
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =   0.686170E+00    GRDMAX = 0.407235E-10    GNORM = 0.140183E-10
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.40919E-04
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.21111E-03         0.00000E+00        -0.15112E+00         0.83703E+00
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+
+
+|     cpu time =                 0.01 seconds

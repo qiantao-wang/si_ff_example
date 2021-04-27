@@ -1,0 +1,159 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          4     10000         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for output coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/15/21 Time = 17:27:01
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :          930 real words
+
+Total memory required :         4275 integer words
+
+Total memory required :           27 4-character words
+
+Maximum nonbond pairs          20
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =          0
+    Number of H-bonded pairs   =          0
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.696767E+01    GRDMAX = 0.120592E+02    GNORM = 0.396599E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.48413E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.88069E+00         0.91982E-01        -0.14932E-01        -0.79738E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+     Coordinate origin is now the molecular center of mass
+          b1 =    1.74411 b2 =   9.24989 tlamba =    0.00000
+          rms of step length = 0.0942149085
+          ene @step k-1 =       -6.967665  ene @k =       -6.570051
+          ene @step k-1 =       -6.967665  ene @k =       -7.431505
+
+
+ *****************        *****************        *****************       
+   step =          1
+     F =  -0.743150E+01    GRDMAX = 0.256170E+02    GNORM = 0.813210E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.23052E+00
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.64072E+00         0.94492E-03        -0.16651E-01        -0.82870E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =   16.91040 b2 =  31.92153 tlamba =    0.00000
+          rms of step length = 0.0178184222
+          ene @step k-1 =       -7.431505  ene @k =       -8.051715
+
+
+ *****************        *****************        *****************       
+   step =          2
+     F =  -0.805171E+01    GRDMAX = 0.360940E+01    GNORM = 0.952225E+00
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.23205E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.22459E+00         0.48471E-02        -0.16673E-01        -0.82877E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    5.78981 b2 =  29.01025 tlamba =    0.00000
+          rms of step length = 0.0080868824
+          ene @step k-1 =       -8.051715  ene @k =       -8.086403
+
+
+ *****************        *****************        *****************       
+   step =          3
+     F =  -0.808640E+01    GRDMAX = 0.558215E+00    GNORM = 0.201946E+00
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.24781E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.11691E+00         0.12755E-01        -0.16290E-01        -0.82246E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    4.93021 b2 =  27.78807 tlamba =    0.00000
+          rms of step length = 0.0009094409
+          ene @step k-1 =       -8.086403  ene @k =       -8.086904
+
+
+ *****************        *****************        *****************       
+   step =          4
+     F =  -0.808690E+01    GRDMAX = 0.872640E-02    GNORM = 0.287128E-02
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.25768E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.10910E+00         0.13965E-01        -0.16259E-01        -0.82195E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    4.63201 b2 =  27.48801 tlamba =    0.00000
+          rms of step length = 0.0000459986
+          ene @step k-1 =       -8.086904  ene @k =       -8.086904
+
+
+ *****************        *****************        *****************       
+   step =          5
+     F =  -0.808690E+01    GRDMAX = 0.127298E-04    GNORM = 0.502833E-05
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.25782E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.10894E+00         0.13990E-01        -0.16258E-01        -0.82194E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    4.62808 b2 =  27.48275 tlamba =    0.00000
+          rms of step length = 0.0000000447
+          ene @step k-1 =       -8.086904  ene @k =       -8.086904
+
+
+ *****************        *****************        *****************       
+   step =          6
+     F =  -0.808690E+01    GRDMAX = 0.891159E-11    GNORM = 0.384559E-11
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.25782E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.10894E+00         0.13991E-01        -0.16258E-01        -0.82194E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+ in savec point =   2
+
+
+                              F i n a l   R e s u l t s :
+
+
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.808690E+01    GRDMAX = 0.891159E-11    GNORM = 0.384559E-11
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.25782E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.10894E+00         0.13991E-01        -0.16258E-01        -0.82194E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+
+
+|     cpu time =                 0.01 seconds

@@ -1,0 +1,19 @@
+REMARK   Siliane Dimer
+HETATM    1  Si  SIC     1       2.206   0.028   0.000
+HETATM    2   H  SIC     1       1.719   0.752  -1.196
+HETATM    3  H1  SIC     1       1.720   0.738   1.205
+HETATM    4  H2  SIC     1       1.620  -1.331  -0.006
+HETATM    5   C  SIC     1       4.082  -0.060  -0.000
+HETATM    6  H3  SIC     1       4.444  -0.592   0.877
+HETATM    7  H4  SIC     1       4.444  -0.582  -0.884
+HETATM    8  H5  SIC     1       4.516   0.937   0.004
+TER
+HETATM    9  Si  SIC     2      -3.485  -0.011   0.002
+HETATM   10   H  SIC     2      -4.023   0.670  -1.197
+HETATM   11  H1  SIC     2      -4.013   0.673   1.204
+HETATM   13  H2  SIC     2      -3.979  -1.407   0.006
+HETATM   13   C  SIC     2      -1.607   0.022  -0.005
+HETATM   14  H3  SIC     2      -1.208  -0.477   0.874
+HETATM   15  H4  SIC     2      -1.215  -0.480  -0.888
+HETATM   16  H5  SIC     2      -1.240   1.047  -0.008
+END

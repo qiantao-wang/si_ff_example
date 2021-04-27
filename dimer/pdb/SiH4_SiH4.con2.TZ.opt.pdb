@@ -1,0 +1,13 @@
+REMARK   Siliane Dimer
+HETATM    1  Si  SIH     1       2.173   0.002  -0.000
+HETATM    2  H   SIH     1       2.463   1.428   0.248
+HETATM    3  H1  SIH     1       1.532  -0.146  -1.323
+HETATM    4  H2  SIH     1       1.257  -0.502   1.043
+HETATM    5  H3  SIH     1       3.430  -0.772   0.029
+TER
+HETATM    6  Si  SIH     2      -2.172  -0.002   0.000
+HETATM    7  H   SIH     2      -1.649   0.363  -1.331
+HETATM    8  H1  SIH     2      -1.846  -1.414   0.287
+HETATM    9  H2  SIH     2      -3.638   0.181   0.022
+HETATM   10  H3  SIH     2      -1.551   0.863   1.024
+END

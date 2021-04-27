@@ -1,0 +1,122 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          1       100         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for input coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/13/21 Time = 18:37:59
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :         1971 real words
+
+Total memory required :         4487 integer words
+
+Total memory required :           36 4-character words
+
+Maximum nonbond pairs          44
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =          6
+    Number of H-bonded pairs   =          0
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.101831E+02    GRDMAX = 0.499623E-11    GNORM = 0.181296E-11
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.60465E-02         0.25794E+01         0.00000E+00         0.33531E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.12145E+00         0.19737E-01        -0.24922E+00        -0.12682E+02
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+| lwork =      270; best value would be     780.
+| Time for diagonalization:       0.00
+
+                    *******************
+                    - Thermochemistry -
+                    *******************
+
+
+
+ temperature   298.150 kelvin
+ pressure      1.00000 atm
+ molecular mass (principal isotopes)    61.16600 amu
+
+ principal moments of inertia (nuclei only) in amu-A**2:
+             28.98       77.69       96.53
+
+ rotational symmetry number  1.
+
+ rotational temperatures (kelvin)      0.83704     0.31220     0.25128
+
+ zero point vibrational energy     208953.6 (joules/mol) 
+                                   49.90842 (kcal/mol)
+                                  0.0795846 (hartree/particle)
+
+ Warning--   5 vibrations have low frequencies and may represent hindered 
+         internal rotations.  The contributions printed below assume that these 
+         really are vibrations.
+
+
+           freq.         E                  Cv                 S
+          cm**-1      kcal/mol        cal/mol-kelvin    cal/mol-kelvin
+--------------------------------------------------------------------------------
+ Total                   53.482             19.268             72.216
+ translational            0.888              2.979             38.227
+ rotational               0.888              2.979             23.791
+ vibrational             51.706             13.310             10.198
+     1    -0.000
+     2    -0.000
+     3     0.000
+     4     0.000
+     5     0.000
+     6     0.000
+     7   143.253          0.616              1.909              2.757
+     8   162.486          0.622              1.887              2.518
+     9   209.259          0.642              1.825              2.047
+    10   465.432          0.823              1.325              0.749
+    11   611.912          0.971              1.005              0.429
+    12   649.086          1.012              0.928              0.372
+    13   699.325          1.070              0.829              0.306
+    14   748.367          1.129              0.738              0.253
+    15   830.668          1.231              0.600              0.183
+    16   862.170          1.272              0.552              0.162
+    17   888.386          1.305              0.515              0.146
+    18   909.016          1.332              0.487              0.134
+    19  1019.205          1.479              0.356              0.086
+    20  1410.878          2.022              0.102              0.017
+    21  1439.307          2.062              0.092              0.015
+    22  1440.595          2.063              0.092              0.015
+    23  1573.555          2.252              0.058              0.009
+    24  2190.303          3.132              0.006              0.001
+    25  2214.664          3.166              0.005              0.001
+    26  3019.007          4.316              0.000              0.000
+    27  3128.122          4.472              0.000              0.000
+    28  3128.562          4.473              0.000              0.000
+    29  3551.199          5.077              0.000              0.000
+    30  3614.557          5.168              0.000              0.000
+
+
+|     cpu time =                 0.00 seconds

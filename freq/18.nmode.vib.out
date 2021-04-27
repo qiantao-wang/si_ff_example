@@ -1,0 +1,165 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          1       100         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for input coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/13/21 Time = 18:35:04
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :         8484 real words
+
+Total memory required :         5481 integer words
+
+Total memory required :           75 4-character words
+
+Maximum nonbond pairs         252
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =        140
+    Number of H-bonded pairs   =          0
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.765527E+00    GRDMAX = 0.344771E-08    GNORM = 0.963111E-09
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.12293E+01        -0.10755E+02         0.00000E+00         0.20176E+00
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.25278E+00         0.17890E-02         0.27340E+01         0.80284E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+| lwork =      621; best value would be    1794.
+| Time for diagonalization:       0.00
+
+                    *******************
+                    - Thermochemistry -
+                    *******************
+
+
+
+ temperature   298.150 kelvin
+ pressure      1.00000 atm
+ molecular mass (principal isotopes)   151.28400 amu
+
+ principal moments of inertia (nuclei only) in amu-A**2:
+            247.15      691.69      778.05
+
+ rotational symmetry number  1.
+
+ Warning-- assumption of classical behavior for rotation
+           may cause significant error
+
+
+ rotational temperatures (kelvin)      0.09814     0.03507     0.03118
+
+ zero point vibrational energy     502174.5 (joules/mol) 
+                                  119.94404 (kcal/mol)
+                                  0.1912644 (hartree/particle)
+
+ Warning--  15 vibrations have low frequencies and may represent hindered 
+         internal rotations.  The contributions printed below assume that these 
+         really are vibrations.
+
+
+           freq.         E                  Cv                 S
+          cm**-1      kcal/mol        cal/mol-kelvin    cal/mol-kelvin
+--------------------------------------------------------------------------------
+ Total                  127.898             44.681            111.325
+ translational            0.888              2.979             40.924
+ rotational               0.888              2.979             30.163
+ vibrational            126.122             38.723             40.237
+     1    -0.000
+     2     0.000
+     3     0.000
+     4     0.000
+     5     0.000
+     6     0.001
+     7    34.409          0.593              1.981              5.552
+     8    75.065          0.599              1.964              4.012
+     9    93.470          0.602              1.952              3.582
+    10   128.017          0.611              1.924              2.972
+    11   141.785          0.615              1.910              2.776
+    12   159.042          0.621              1.891              2.558
+    13   161.222          0.622              1.889              2.532
+    14   173.299          0.626              1.874              2.396
+    15   182.906          0.630              1.862              2.296
+    16   209.089          0.642              1.825              2.049
+    17   214.790          0.644              1.817              2.000
+    18   243.817          0.659              1.772              1.772
+    19   428.834          0.790              1.406              0.861
+    20   466.794          0.824              1.322              0.745
+    21   623.015          0.983              0.982              0.411
+    22   631.299          0.992              0.965              0.398
+    23   671.274          1.038              0.884              0.341
+    24   691.506          1.061              0.844              0.315
+    25   734.457          1.112              0.763              0.267
+    26   741.275          1.121              0.751              0.260
+    27   745.782          1.126              0.743              0.256
+    28   849.568          1.255              0.571              0.170
+    29   853.983          1.261              0.565              0.167
+    30   854.677          1.262              0.564              0.167
+    31   877.758          1.292              0.530              0.152
+    32   878.272          1.292              0.529              0.152
+    33   883.827          1.299              0.521              0.148
+    34   884.887          1.301              0.520              0.148
+    35   885.802          1.302              0.518              0.147
+    36   984.097          1.431              0.394              0.099
+    37  1016.706          1.475              0.358              0.087
+    38  1045.151          1.514              0.329              0.078
+    39  1048.506          1.518              0.326              0.077
+    40  1154.588          1.663              0.236              0.050
+    41  1234.682          1.774              0.183              0.036
+    42  1267.394          1.820              0.164              0.031
+    43  1406.770          2.016              0.103              0.017
+    44  1410.667          2.021              0.102              0.017
+    45  1411.690          2.023              0.101              0.017
+    46  1439.751          2.062              0.092              0.015
+    47  1440.660          2.064              0.092              0.015
+    48  1441.489          2.065              0.091              0.015
+    49  1441.679          2.065              0.091              0.015
+    50  1441.914          2.065              0.091              0.015
+    51  1442.522          2.066              0.091              0.015
+    52  1465.128          2.098              0.084              0.014
+    53  1608.950          2.302              0.051              0.007
+    54  1684.882          2.410              0.038              0.005
+    55  1694.093          2.423              0.037              0.005
+    56  1766.156          2.526              0.029              0.004
+    57  3018.846          4.316              0.000              0.000
+    58  3018.851          4.316              0.000              0.000
+    59  3018.899          4.316              0.000              0.000
+    60  3128.029          4.472              0.000              0.000
+    61  3128.261          4.472              0.000              0.000
+    62  3128.484          4.473              0.000              0.000
+    63  3128.846          4.473              0.000              0.000
+    64  3128.947          4.473              0.000              0.000
+    65  3128.961          4.473              0.000              0.000
+    66  3158.959          4.516              0.000              0.000
+    67  3180.358          4.547              0.000              0.000
+    68  3180.613          4.547              0.000              0.000
+    69  3181.504          4.548              0.000              0.000
+
+
+|     cpu time =                 0.00 seconds

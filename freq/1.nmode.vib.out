@@ -1,0 +1,103 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          1       100         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for input coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/15/21 Time = 15:41:56
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :          612 real words
+
+Total memory required :         4145 integer words
+
+Total memory required :           21 4-character words
+
+Maximum nonbond pairs           9
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =          0
+    Number of H-bonded pairs   =          0
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =   0.558693E-01    GRDMAX = 0.889535E-13    GNORM = 0.427667E-13
+       E-NONB              E-ELE               E-HBOND             E-BOND
+     0.00000E+00         0.00000E+00         0.00000E+00         0.19741E-28
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.55869E-01         0.00000E+00         0.00000E+00         0.00000E+00
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+| lwork =      135; best value would be     390.
+| Time for diagonalization:       0.00
+
+                    *******************
+                    - Thermochemistry -
+                    *******************
+
+
+
+ temperature   298.150 kelvin
+ pressure      1.00000 atm
+ molecular mass (principal isotopes)    32.12200 amu
+
+ principal moments of inertia (nuclei only) in amu-A**2:
+              5.94        5.94        5.94
+
+ rotational symmetry number  1.
+
+ rotational temperatures (kelvin)      4.08099     4.08099     4.08099
+
+ zero point vibrational energy      82467.3 (joules/mol) 
+                                   19.69726 (kcal/mol)
+                                  0.0314095 (hartree/particle)
+
+
+           freq.         E                  Cv                 S
+          cm**-1      kcal/mol        cal/mol-kelvin    cal/mol-kelvin
+--------------------------------------------------------------------------------
+ Total                   21.598              7.944             53.714
+ translational            0.888              2.979             36.308
+ rotational               0.888              2.979             16.898
+ vibrational             19.822              1.987              0.508
+     1    -0.000
+     2    -0.000
+     3    -0.000
+     4    -0.000
+     5     0.000
+     6     0.000
+     7   924.127          1.352              0.467              0.126
+     8   924.127          1.352              0.467              0.126
+     9   924.127          1.352              0.467              0.126
+    10  1096.077          1.583              0.282              0.063
+    11  1096.077          1.583              0.282              0.063
+    12  2164.186          3.094              0.006              0.001
+    13  2216.290          3.169              0.005              0.001
+    14  2216.290          3.169              0.005              0.001
+    15  2216.290          3.169              0.005              0.001
+
+
+|     cpu time =                 0.00 seconds

@@ -1,0 +1,247 @@
+
+
+          *******************************************************
+          Initiate the NMODE module of AMBER 8  
+          *******************************************************
+
+
+  get vibrational modes                                                           
+       ntrun    maxcyc    ibelly       drms
+          4     10000         0  0.10E-08
+       rcut      scnb      scee      dielc   idiel
+     99.00000   2.00000   2.00000   1.00000     0
+      nsave   dfpred    bdwnhl     smx       emx      alpha       ndiag 
+         20   0.01000   0.10000   0.08000   0.30000   0.80000        10
+ ipol =  0
+ i3bod =  0
+ idecomp =  0
+ nvect =   10
+     Binary format used for output coords.
+| New format PARM file being parsed.
+| Version =    1.000 Date = 04/13/21 Time = 18:36:30
+
+    PARM file has the title:
+     default_name                                                                    
+
+Total memory required :         4144 real words
+
+Total memory required :         5053 integer words
+
+Total memory required :           60 4-character words
+
+Maximum nonbond pairs         152
+
+     Duplicated    0 dihedrals
+
+     Duplicated    0 dihedrals
+
+ Getting coordinates from file with title:
+     default_name                                                                    
+
+    Number of non-bonded pairs =         66
+    Number of H-bonded pairs   =          0
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.102960E+01    GRDMAX = 0.876429E+01    GNORM = 0.248250E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.50212E+00        -0.73353E+01         0.00000E+00         0.22544E+00
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.19352E+00         0.72172E+00        -0.59736E+00         0.62645E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+     Coordinate origin is now the molecular center of mass
+          b1 = ********** b2 =   0.49514 tlamba = **********
+          rms of step length = 0.8838188998
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =       17.585832
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =        6.827348
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =        2.105654
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =        0.099092
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =       -0.722151
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.029601  ene @k =       -1.038895
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          1
+     F =  -0.103889E+01    GRDMAX = 0.196019E+02    GNORM = 0.519043E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.50205E+00        -0.73305E+01         0.00000E+00         0.48652E+00
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.19219E+00         0.45859E+00        -0.59726E+00         0.62536E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.49704 b2 =   0.56380 tlamba =    0.00000
+          rms of step length = 0.0765933237
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.038895  ene @k =       -0.419878
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.038895  ene @k =       -1.170868
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          2
+     F =  -0.117087E+01    GRDMAX = 0.101063E+02    GNORM = 0.402001E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.55851E+00        -0.71576E+01         0.00000E+00         0.45218E+00
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.53498E-01         0.49065E+00        -0.62246E+00         0.61714E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.68819 b2 =   1.90349 tlamba =    0.00000
+          rms of step length = 0.0182057929
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.170868  ene @k =       -1.729903
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          3
+     F =  -0.172990E+01    GRDMAX = 0.565244E+01    GNORM = 0.131371E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.56032E+00        -0.71503E+01         0.00000E+00         0.32046E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.43157E-01         0.37894E+00        -0.63475E+00         0.61614E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.48303 b2 =   2.07692 tlamba =    0.00000
+          rms of step length = 0.0306783955
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.729903  ene @k =       -1.804022
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          4
+     F =  -0.180402E+01    GRDMAX = 0.237602E+01    GNORM = 0.106222E+01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54711E+00        -0.71934E+01         0.00000E+00         0.36218E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.44634E-01         0.30071E+00        -0.63785E+00         0.61927E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.50468 b2 =   2.12685 tlamba =    0.00000
+          rms of step length = 0.0102449944
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.804022  ene @k =       -1.849510
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          5
+     F =  -0.184951E+01    GRDMAX = 0.275752E+01    GNORM = 0.685563E+00
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54745E+00        -0.72296E+01         0.00000E+00         0.16016E-01
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41496E-01         0.28087E+00        -0.63781E+00         0.62270E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.49798 b2 =   2.06729 tlamba =    0.00000
+          rms of step length = 0.0030807832
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.849510  ene @k =       -1.857550
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          6
+     F =  -0.185755E+01    GRDMAX = 0.237262E+00    GNORM = 0.560172E-01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54705E+00        -0.72457E+01         0.00000E+00         0.88897E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41780E-01         0.27896E+00        -0.63766E+00         0.62432E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.47261 b2 =   2.02654 tlamba =    0.00000
+          rms of step length = 0.0033839486
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.857550  ene @k =       -1.858680
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          7
+     F =  -0.185868E+01    GRDMAX = 0.300056E+00    GNORM = 0.767762E-01
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54707E+00        -0.72608E+01         0.00000E+00         0.90088E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41493E-01         0.27823E+00        -0.63748E+00         0.62579E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.47484 b2 =   2.02552 tlamba =    0.00000
+          rms of step length = 0.0003747918
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.858680  ene @k =       -1.858764
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          8
+     F =  -0.185876E+01    GRDMAX = 0.391902E-02    GNORM = 0.939392E-03
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54708E+00        -0.72629E+01         0.00000E+00         0.87362E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41531E-01         0.27831E+00        -0.63747E+00         0.62601E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.47100 b2 =   2.00180 tlamba =    0.00000
+          rms of step length = 0.0000568848
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.858764  ene @k =       -1.858764
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =          9
+     F =  -0.185876E+01    GRDMAX = 0.846470E-04    GNORM = 0.216880E-04
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54708E+00        -0.72632E+01         0.00000E+00         0.87341E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41527E-01         0.27831E+00        -0.63746E+00         0.62604E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+          b1 =    0.47097 b2 =   2.00121 tlamba =    0.00000
+          rms of step length = 0.0000001241
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+          ene @step k-1 =       -1.858764  ene @k =       -1.858764
+ DIHEDRAL ANGLE ERROR:     19    12    39    48    51
+
+
+ *****************        *****************        *****************       
+   step =         10
+     F =  -0.185876E+01    GRDMAX = 0.426669E-09    GNORM = 0.102973E-09
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54708E+00        -0.72632E+01         0.00000E+00         0.87341E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41527E-01         0.27831E+00        -0.63746E+00         0.62604E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+ in savec point =   2
+
+
+                              F i n a l   R e s u l t s :
+
+
+
+
+ *****************        *****************        *****************       
+   step =          0
+     F =  -0.185876E+01    GRDMAX = 0.426669E-09    GNORM = 0.102973E-09
+       E-NONB              E-ELE               E-HBOND             E-BOND
+    -0.54708E+00        -0.72632E+01         0.00000E+00         0.87341E-02
+       E-ANGLE             E-DIHED             E-NB14              E-EEL14
+     0.41527E-01         0.27831E+00        -0.63746E+00         0.62604E+01
+       E-POL               E-3BOD 
+     0.00000E+00         0.00000E+00
+
+
+|     cpu time =                 0.04 seconds

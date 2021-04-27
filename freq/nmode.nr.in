@@ -1,0 +1,8 @@
+get vibrational modes
+&data
+   ntrun = 4,
+   cut = 99.0,
+   maxcyc = 10000,
+   drms = 1.e-9,
+   ntxo = 0,
+&end   

@@ -1,0 +1,17 @@
+REMARK   Siliane Dimer
+HETATM    1  Si  SIN     1       1.924   0.221   0.126
+HETATM    2  H   SIN     1       1.412   0.307   1.517
+HETATM    3  H1  SIN     1       1.133  -0.817  -0.568
+HETATM    4  H2  SIN     1       1.726   1.539  -0.510
+HETATM    5  N   SIN     1       3.598  -0.193  -0.046
+HETATM    6  H3  SIN     1       3.898  -1.114   0.229
+HETATM    7  H4  SIN     1       4.290   0.485   0.228
+TER
+HETATM    8  Si  SIN     2      -1.937  -0.350  -0.200
+HETATM    9  H   SIN     2      -1.704  -0.792  -1.599
+HETATM   10  H1  SIN     2      -1.512  -1.446   0.694
+HETATM   11  H2  SIN     2      -1.109   0.854   0.026
+HETATM   12  N   SIN     2      -3.571   0.057   0.206
+HETATM   13  H3  SIN     2      -4.253  -0.682   0.247
+HETATM   14  H4  SIN     2      -3.982   0.872  -0.220
+END

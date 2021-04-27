@@ -1,0 +1,7 @@
+get vibrational modes
+&data
+   ntrun = 1,
+   cut = 99.0,
+   drms = 1.e-9,
+   ntx = 0,
+&end   
