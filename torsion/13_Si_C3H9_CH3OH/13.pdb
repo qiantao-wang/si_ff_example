@@ -1,0 +1,28 @@
+HEADER    PROTEIN                                 16-JUN-20   NONE
+TITLE     NULL                                                        
+COMPND    NULL                                                        
+SOURCE    NULL                                                        
+KEYWDS    NULL                                                        
+EXPDTA    NULL                                                        
+AUTHOR    Marvin                                                      
+REVDAT   1   16-JUN-20         0                                  
+HETATM    1  C   LIG     0      -0.441  -1.548   1.086
+HETATM    2 Si   LIG     0      -0.405  -0.000   0.015
+HETATM    3  C   LIG     0      -1.852  -0.000  -1.200
+HETATM    4  C   LIG     0      -0.441   1.548   1.086
+HETATM    5  C   LIG     0       1.219  -0.000  -0.976
+HETATM    6  O   LIG     0       2.276   0.000   0.005
+HETATM    7  H   LIG     0       0.443  -1.580   1.729
+HETATM    8  H   LIG     0      -1.329  -1.577   1.725
+HETATM    9  H   LIG     0      -0.441  -2.455   0.473
+HETATM   10  H   LIG     0      -1.835   0.884  -1.845
+HETATM   11  H   LIG     0      -2.809  -0.000  -0.667
+HETATM   12  H   LIG     0      -1.835  -0.884  -1.845
+HETATM   13  H   LIG     0      -0.441   2.455   0.473
+HETATM   14  H   LIG     0       0.444   1.580   1.729
+HETATM   15  H   LIG     0      -1.329   1.577   1.725
+HETATM   16  H   LIG     0       1.283   0.885  -1.628
+HETATM   17  H   LIG     0       1.283  -0.885  -1.628
+HETATM   18  H   LIG     0       3.124  -0.000  -0.470
+MASTER        0    0    0    0    0    0    0    0   18    0    0    0
+END

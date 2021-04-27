@@ -1,0 +1,9 @@
+REVDAT   1   07-MAY-19         0                                  
+HETATM    1  H   SIN     0      1.196   0.001   1.426
+HETATM    2 Si   SIN     0      0.589   0.000   0.062
+HETATM    3 H1   SIN     0      1.071   1.219  -0.633
+HETATM    4 H2   SIN     0      1.071  -1.220  -0.630
+HETATM    5  N   SIN     0     -1.146  -0.000  -0.018
+HETATM    6 H3   SIN     0     -1.652   0.831   0.261
+HETATM    7 H4   SIN     0     -1.651  -0.831   0.262
+END

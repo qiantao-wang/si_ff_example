@@ -1,0 +1,8 @@
+HEADER    PROTEIN                                 07-MAY-19   NONE
+HETATM    1  H   SIO     0       1.033   0.744   1.200
+HETATM    2 Si   SIO     0       0.525   0.027  -0.000
+HETATM    3 H1   SIO     0       1.033   0.747  -1.198
+HETATM    4 H2   SIO     0       1.031  -1.360  -0.001
+HETATM    5  O   SIO     0      -1.142  -0.095  -0.000
+HETATM    6 H3   SIO     0      -1.635   0.738   0.000
+END

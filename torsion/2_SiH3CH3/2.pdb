@@ -1,0 +1,10 @@
+HEADER    PROTEIN                                 16-APR-19   NONE
+HETATM    1 Si   SIC     0       0.643  -0.000   0.000
+HETATM    2 C    SIC     0      -1.239  -0.000   0.000
+HETATM    3 H    SIC     0       1.166  -0.696  -1.205
+HETATM    4 H1   SIC     0       1.166  -0.696   1.205
+HETATM    5 H2   SIC     0       1.166   1.391   0.000
+HETATM    6 H3   SIC     0      -1.631   0.510   0.883
+HETATM    7 H4   SIC     0      -1.631  -1.020   0.000
+HETATM    8 H5   SIC     0      -1.631   0.510  -0.883
+END

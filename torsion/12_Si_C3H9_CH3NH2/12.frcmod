@@ -1,0 +1,25 @@
+remark goes here
+MASS
+Si 0.000         0.000               ATTN, need revision
+
+BOND
+c3-Si    0.00   0.000       ATTN, need revision
+
+ANGLE
+c3-Si-c3    0.000       0.000   ATTN, need revision
+hc-c3-Si    0.000       0.000   ATTN, need revision
+Si-c3-h1    0.000       0.000   same as hc-c3-Si
+Si-c3-n3    0.000       0.000   ATTN, need revision
+
+DIHE
+c3-Si-c3-hc   1    0.000         0.000           0.000      ATTN, need revision
+c3-Si-c3-h1   1     -nan         0.000           0.000      same as c3-Si-c3-hc
+c3-Si-c3-n3   1    0.000         0.000           0.000      ATTN, need revision
+
+IMPROPER
+
+NONBON
+  Si          0.0000  0.0000             ATTN, need revision
+
+
+

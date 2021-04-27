@@ -1,0 +1,67 @@
+####################################
+#
+# Test
+#
+####################################
+
+
+### Torsion ###
+#
+# e.g. SiH3NH2
+ 
+cd torsion/3_SiH3NH2/
+
+# Generate initial prepc file
+./run_antechamber.sh
+
+# Change the atom types in the generated prepc mannually
+vi 3.prepc
+
+# Generate the prmtop file
+./parmGen.sh
+
+# Generate the inpcrd files from the QM optimized xyz files
+./gen_inp.sh
+
+# Run sander
+./run_mm.sh
+
+# Then we can extract the energy from the output
+./get_ene.sh
+
+
+
+### Freq ###
+#
+# go to the freq/ directory, and run ./run_nmode.sh
+
+
+
+### Dimer Potential Energy Surface ###
+#
+# go to the dimer/MM_PES/ directory
+
+
+
+### Dimer Geometry ###
+#
+# go to the dimer/MM_opt/ directory
+
+
+
+### Density ###
+#
+# go to the liquid/ directory, there are tests for SiH4, SiC4H12, CH4 and C5H12
+
+
+
+### MD ###
+#
+# go to the MD/ directory
+
+
+
+### TI ###
+#
+# go to the TI/ directory
+

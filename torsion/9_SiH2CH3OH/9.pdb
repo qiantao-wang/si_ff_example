@@ -1,0 +1,10 @@
+HETATM    1 Si   LIG     0     -0.110   0.507  -0.000
+HETATM    1 H    LIG     0     -0.217   1.386  -1.199
+HETATM    3 H    LIG     0     -0.218   1.386   1.199
+HETATM    4 O    LIG     0     -1.309  -0.664  -0.000
+HETATM    5 H    LIG     0     -2.224  -0.343   0.000
+HETATM    6 C    LIG     0      1.517  -0.404   0.000
+HETATM    7 H    LIG     0      1.607  -1.041   0.883
+HETATM    8 H    LIG     0      2.358   0.295   0.000
+HETATM    9 H    LIG     0      1.607  -1.041  -0.883
+END

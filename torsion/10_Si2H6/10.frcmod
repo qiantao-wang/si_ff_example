@@ -1,0 +1,22 @@
+remark goes here
+MASS
+Si 0.000         0.000               ATTN, need revision
+
+BOND
+Si-ha    0.00   0.000       ATTN, need revision
+Si-Si    0.00   0.000       ATTN, need revision
+
+ANGLE
+Si-Si-ha    0.000       0.000   ATTN, need revision
+ha-Si-ha    0.000       0.000   ATTN, need revision
+
+DIHE
+ha-Si-Si-ha   1    0.000         0.000           0.000      ATTN, need revision
+
+IMPROPER
+
+NONBON
+  Si          0.0000  0.0000             ATTN, need revision
+
+
+
