@@ -1,0 +1,7 @@
+REMARK   Siliane
+HETATM    1  Si  SIN    1        0.000  -0.000   0.000
+HETATM    2  H   SIN    1        0.699  -0.494   1.211     
+HETATM    3  H1  SIN    1       -1.398  -0.494   0.000
+HETATM    4  H2  SIN    1        0.699  -0.494  -1.211
+HETATM    5  H3  SIN    1        0.000   1.483   0.000
+END

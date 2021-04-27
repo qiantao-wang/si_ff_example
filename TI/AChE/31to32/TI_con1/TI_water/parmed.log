@@ -1,0 +1,54 @@
+
+       _________________________________________
+   .'`                                           `'.
+   |   _________________________________________   |
+   | '\.---------------------------------------./' |
+   | ||                                         || |
+   | || PPPPPPP                                 || |
+   | || P       P                               || |
+   | || PPPPPPP                                 || |
+   | || P                                       || |
+   | || P   aaa  rrrrr.    m   m   eee  ddd     || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  aaaaa r-rr.   m   m   m eee  d    d  || |
+   | || P  a   a r    r  m   m   m e    d   d   || |
+   | || P  a   a r     r m   m   m eee  ddd     || |
+   | ||                                         || |
+   | '/\_______________________________________/\' |
+   '  `-----------------------------------------'  '
+    \                                     .-.     /
+     '.__~~~ ____()__()_()()() __________((_))__.'
+    _________________';========;'__________________
+   /  _/__/_//_//   _/_/    /_//_//   __/__/_//    \
+  /_/__/_/_/   __/ _/.-'''''-.   /_//       _/ _//_/\
+ / _.-..-..-.     .'           `.     .-..-..-./_//_||
+/ /_| || || |-. .'               `. .-| || || | /_/ //
+----\ '  '   ' /                   \ `   '  ' /----((
+ ~~~~\      / /                     \ \      /~~~~~ ))
+      `'--'`-:                       :-`'--'`   __,</
+         \   |                       |   /   .'`  `\)
+          `'-:                       :-'`   | `-../|
+             '                       '      \`-'`|/
+              \                     /mx      `'-'
+               '.                 .'
+                 '.             .'
+                   `'-..___..-'`
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file TI.31.32.water.prmtop
+['parmed.in']
+Reading actions from parmed.in
+
+Loading restart file TI.31.32.water.inpcrd
+Files are overwritable
+Merging molecules [:1] [:2] with sc mask [:1@C1,C,H,H1,H2,C2,H3,H4,H5,C3,H6,H7,H8] [:2@Si,C,H,H1,H2,C2,H3,H4,H5,C3,H6,H7,H8]
+Merging molecules :1 and :2 into the same molecule.
+Use softcore mask:
+timask1='@1,2,3,4,5,6,7,8,9,10,11,12,13',
+timask2='@29,30,31,32,33,34,35,36,37,38,39,40,41',
+scmask1='@1,2,3,4,5,6,7,8,9,10,11,12,13',
+scmask2='@29,30,31,32,33,34,35,36,37,38,39,40,41',
+Outputting Amber topology file re_TI.31.32.water.prmtop and restart re_TI.31.32.water.inpcrd
+Done!

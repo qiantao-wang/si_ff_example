@@ -1,0 +1,15 @@
+HEADER    PROTEIN                                 23-AUG-19   NONE
+TITLE     NULL                                                        
+COMPND    NULL                                                        
+SOURCE    NULL                                                        
+KEYWDS    NULL                                                        
+EXPDTA    NULL                                                        
+AUTHOR    Marvin                                                      
+REVDAT   1   23-AUG-19         0                                  
+HETATM    1  C   CH4     0       0.000   0.000  -0.000  0.00  0.00           C+0
+HETATM    2  H   CH4     0      -0.363  -0.514   0.890  0.00  0.00           H+0
+HETATM    3  H   CH4     0       1.090   0.000   0.000  0.00  0.00           H+0
+HETATM    4  H   CH4     0      -0.363   1.028   0.000  0.00  0.00           H+0
+HETATM    5  H   CH4     0      -0.363  -0.514  -0.890  0.00  0.00           H+0
+MASTER        0    0    0    0    0    0    0    0    5    0    0    0
+END

@@ -1,0 +1,40 @@
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file TI.25.26.prmtop
+['parmed.in']
+Reading actions from parmed.in
+
+Loading restart file TI.25.26.inpcrd
+Files are overwritable
+Merging molecules [:554] [:555] with sc mask [:554@O3,H15] [:555@N1,H79,C19,H16,H17,Si,C20,H18,H19,H20,C21,H21,H22,H23,C22,H24,H25,H26]
+Merging molecules :554 and :555 into the same molecule.
+Use softcore mask:
+timask1='@8932,8933',
+timask2='@8945,8946,8947,8948,8949,8950,8951,8952,8953,8954,8955,8956,8957,8958,8959,8960,8961,8962',
+scmask1='@8932,8933',
+scmask2='@8945,8946,8947,8948,8949,8950,8951,8952,8953,8954,8955,8956,8957,8958,8959,8960,8961,8962',
+Outputting Amber topology file re_TI.25.26.prmtop and restart re_TI.25.26.inpcrd
+Done!

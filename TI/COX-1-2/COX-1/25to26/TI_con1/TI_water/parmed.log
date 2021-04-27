@@ -1,0 +1,40 @@
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Loaded Amber topology file TI.25.26.water.prmtop
+['parmed.in']
+Reading actions from parmed.in
+
+Loading restart file TI.25.26.water.inpcrd
+Files are overwritable
+Merging molecules [:1] [:2] with sc mask [:1@O3,H15] [:2@N1,H79,C19,H16,H17,Si,C20,H18,H19,H20,C21,H21,H22,H23,C22,H24,H25,H26]
+Merging molecules :1 and :2 into the same molecule.
+Use softcore mask:
+timask1='@29,30',
+timask2='@42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59',
+scmask1='@29,30',
+scmask2='@42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59',
+Outputting Amber topology file re_TI.25.26.water.prmtop and restart re_TI.25.26.water.inpcrd
+Done!
