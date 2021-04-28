@@ -24,7 +24,7 @@ charge comp1
 
 
 savepdb comp1 TI.31.32.pdb
-saveamberparm comp1 TI.31.32.prmtop TI.31.32.inpcrd
+saveamberparm comp1 TI.31.32.water.prmtop TI.31.32.water.inpcrd
 
 quit
 
